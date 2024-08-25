@@ -1,0 +1,26 @@
+{
+	"name": "noesi/nsv",
+	"type": "project",
+	"autoload": {
+		"psr-4": {
+			"VAB\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Noe Sierra Velasquez",
+			"email": "nosierravelasquez@gmail.com"
+		}
+	],
+	"require": {
+		"rak/barebone": "*"
+	},
+	"repositories": [
+		{
+			"type": "path",
+			"url": "../barebone"
+		}
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
